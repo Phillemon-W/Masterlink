@@ -1486,11 +1486,20 @@ ul {
 .navbar-top .nav-phone-wrap i, .navbar-top .nav-phone-wrap svg {
   margin-right: 5px;
 }
+/*-------------
 .navbar-top .logo {
   position: absolute;
-  left: -58px;
+  left: -16px;
   top: 0;
-  width: 510px;
+  width: 34vw;
+}
+---------------*/
+
+.navbar-top .logo {
+  position: absolute;
+  left: -55px;
+  top: 0;
+  width: 38vw;
 }
 .navbar-top .logo .main-logo {
   display: inline-block;
