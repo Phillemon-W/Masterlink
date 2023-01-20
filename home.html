@@ -13,6 +13,57 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 
+<!-- updated css -->
+    <style>
+        .navbar{
+            border:1px solid green;
+            padding-right:0;
+            background:white;
+        }
+        .logo img{
+            max-height:100px;
+        }
+     
+        .navbar-top{
+          
+      background:rgb(54, 23, 61);
+        }
+      .navbar-top  .container .row{
+           
+            display: flex;
+       align-items: center;
+      justify-content:space-between;
+       color:rgb(212, 211, 211);
+      
+       padding:0;
+     
+        }
+        
+        .topbar-left{
+          
+            width:50%;
+        }
+        .topbar-right{
+    
+            width:20%;
+       
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            gap:20px;
+            font-size:20px;
+        }
+.menu-items{
+ display:flex;
+ gap:10px;
+ width:100%;
+
+ justify-content:flex-end;
+ align-items: center;
+}
+      
+    
+    </style>
 </head>
 <body>
 
@@ -35,37 +86,56 @@
     <!-- navbar start -->
     <header class="navbar-area">
         <div class="navbar-top">
-            <div class="logo d-none d-lg-block">
-                <a class="main-logo" href="home.html"><img src="assets/img/lgo.png" alt="img"></a>
-            </div>
-            
+        
             <div class="container p-lg-0">
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-lg-10 col-md-9 text-md-start text-center">
                         <ul class="topbar-left">
-                            <li><svg width="12" height="17" viewBox="0 0 12 17" fill="none" xmlns="../../../www.w3.org/2000/svg.html">
+                        <svg width="12" height="17" viewBox="0 0 12 17" fill="none" xmlns="../../../www.w3.org/2000/svg.html">
                                 <path d="M6 0C7.0625 0 8.0625 0.28125 9 0.8125C9.90625 1.375 10.625 2.09375 11.1875 3C11.7188 3.9375 12 4.9375 12 6C12 6.625 11.9062 7.15625 11.7812 7.625C11.625 8.125 11.3438 8.71875 10.9375 9.4375C10.625 9.9375 10.0312 10.9375 9.125 12.375L7.28125 15.2812C7.09375 15.5938 6.8125 15.8125 6.5 15.9375C6.15625 16.0625 5.8125 16.0625 5.5 15.9375C5.15625 15.8125 4.90625 15.5938 4.71875 15.2812L2.875 12.375C1.9375 10.9375 1.34375 9.96875 1.0625 9.46875C0.625 8.71875 0.34375 8.125 0.21875 7.625C0.0625 7.15625 0 6.625 0 6C0 4.9375 0.25 3.9375 0.8125 3C1.34375 2.09375 2.0625 1.375 3 0.8125C3.90625 0.28125 4.90625 0 6 0ZM6 14.5L7.96875 11.375C8.78125 10.0625 9.34375 9.15625 9.625 8.71875C9.96875 8.09375 10.1875 7.625 10.3125 7.25C10.4375 6.90625 10.5 6.5 10.5 6C10.5 5.1875 10.2812 4.4375 9.875 3.75C9.46875 3.0625 8.9375 2.53125 8.25 2.125C7.5625 1.71875 6.8125 1.5 6 1.5C5.1875 1.5 4.4375 1.71875 3.75 2.125C3.0625 2.53125 2.5 3.0625 2.09375 3.75C1.6875 4.4375 1.5 5.1875 1.5 6C1.5 6.5 1.53125 6.90625 1.65625 7.28125C1.78125 7.65625 2.03125 8.125 2.40625 8.75C2.65625 9.1875 3.1875 10.0938 4.03125 11.4062C4.8125 12.6562 5.46875 13.6875 6 14.5ZM3.5 6C3.5 6.6875 3.71875 7.28125 4.21875 7.78125C4.71875 8.28125 5.3125 8.5 6 8.5C6.6875 8.5 7.25 8.28125 7.75 7.78125C8.25 7.28125 8.5 6.6875 8.5 6C8.5 5.3125 8.25 4.75 7.75 4.25C7.25 3.75 6.6875 3.5 6 3.5C5.3125 3.5 4.71875 3.75 4.21875 4.25C3.71875 4.75 3.5 5.3125 3.5 6Z" fill="#ECD767"/>
                                 </svg>
-                                 Visions Plaza 1st Flr, Nairobi, Kenya</li>
-                            <li><i class="far fa-clock"></i>Mon - Sat: 8 am - 5 pm, Sunday: CLOSED</li>
+                                 Visions Plaza 1st Flr, Nairobi, Kenya
+                        <i class="far fa-clock"></i>Mon - Sat: 8 am - 5 pm, Sunday: CLOSED
                         </ul>
                     </div>
                     <div class="col-lg-2 col-md-3">
                         <ul class="topbar-right social-area text-md-end text-center">
-                            <li>
+                        
                                 <a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-                            </li>
-                            <li>
+                            
+                        
                                 <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-                            </li>
-                            <li>
+                            
+                        
                                 <a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-                            </li>
-                            <li>
+                            
+                        
                                 <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-                            </li>
+                            
                         </ul>
                     </div>
+                </div> -->
+
+                <div class="row">
+                      <div class="topbar-left">
+                        <svg width="12" height="17" viewBox="0 0 12 17" fill="none" xmlns="../../../www.w3.org/2000/svg.html">
+                                <path d="M6 0C7.0625 0 8.0625 0.28125 9 0.8125C9.90625 1.375 10.625 2.09375 11.1875 3C11.7188 3.9375 12 4.9375 12 6C12 6.625 11.9062 7.15625 11.7812 7.625C11.625 8.125 11.3438 8.71875 10.9375 9.4375C10.625 9.9375 10.0312 10.9375 9.125 12.375L7.28125 15.2812C7.09375 15.5938 6.8125 15.8125 6.5 15.9375C6.15625 16.0625 5.8125 16.0625 5.5 15.9375C5.15625 15.8125 4.90625 15.5938 4.71875 15.2812L2.875 12.375C1.9375 10.9375 1.34375 9.96875 1.0625 9.46875C0.625 8.71875 0.34375 8.125 0.21875 7.625C0.0625 7.15625 0 6.625 0 6C0 4.9375 0.25 3.9375 0.8125 3C1.34375 2.09375 2.0625 1.375 3 0.8125C3.90625 0.28125 4.90625 0 6 0ZM6 14.5L7.96875 11.375C8.78125 10.0625 9.34375 9.15625 9.625 8.71875C9.96875 8.09375 10.1875 7.625 10.3125 7.25C10.4375 6.90625 10.5 6.5 10.5 6C10.5 5.1875 10.2812 4.4375 9.875 3.75C9.46875 3.0625 8.9375 2.53125 8.25 2.125C7.5625 1.71875 6.8125 1.5 6 1.5C5.1875 1.5 4.4375 1.71875 3.75 2.125C3.0625 2.53125 2.5 3.0625 2.09375 3.75C1.6875 4.4375 1.5 5.1875 1.5 6C1.5 6.5 1.53125 6.90625 1.65625 7.28125C1.78125 7.65625 2.03125 8.125 2.40625 8.75C2.65625 9.1875 3.1875 10.0938 4.03125 11.4062C4.8125 12.6562 5.46875 13.6875 6 14.5ZM3.5 6C3.5 6.6875 3.71875 7.28125 4.21875 7.78125C4.71875 8.28125 5.3125 8.5 6 8.5C6.6875 8.5 7.25 8.28125 7.75 7.78125C8.25 7.28125 8.5 6.6875 8.5 6C8.5 5.3125 8.25 4.75 7.75 4.25C7.25 3.75 6.6875 3.5 6 3.5C5.3125 3.5 4.71875 3.75 4.21875 4.25C3.71875 4.75 3.5 5.3125 3.5 6Z" fill="#ECD767"/>
+                                </svg>&nbsp;
+                                 Visions Plaza 1st Flr, Nairobi, Kenya&nbsp;&nbsp;&nbsp;
+                        <i class="far fa-clock"></i>&nbsp;Mon - Sat: 8 am - 5 pm, &nbsp;Sunday: CLOSED
+                        </div> 
+                        <div class="topbar-right ">      
+                                <a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                            
+                        
+                                <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                            
+                        
+                                <a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                            
+                        
+                                <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>                       
+                        </div>
                 </div>
             </div>
         </div>
@@ -78,12 +148,10 @@
                         <span class="icon-right"></span>
                     </button>
                 </div>
-                <div class="logo">
+                <!-- <div class="logo">
                     <a href="home.html"><img src="assets/img/lgo-2.png" alt="img"></a>
-                </div>
-                <div class="nav-left-part">
-                      
-                </div>
+                </div> -->
+              
                 <div class="nav-right-part nav-right-part-mobile">
                     
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="../../../www.w3.org/2000/svg.html">
@@ -95,13 +163,19 @@
                     </a>
                 </div>
                 <div class="collapse navbar-collapse" id="transpro_main_menu">
-                    <ul class="navbar-nav menu-open">
-                        <li><a href="home.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="service.html">Services</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                    </ul>
+                    <div class="logo d-none d-md-block">
+                        <a class="main-logo" href="home.html"><img src="assets/img/lgo.png"   alt="img"></a>
+                    </div>
+                    
+                    <div class="menu-items menu-open">
+                        
+                    <a href="home.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="service.html">Services</a>
+                    <a href="faq.html">FAQ</a>
+                    <a href="contact.html">Contact Us</a>
+           
+                    </div>
                 </div>
                 <div class="nav-right-part nav-right-part-desktop">
                     
@@ -235,10 +309,10 @@
                                 <div class="row">
                                     <div class="col-xl-6 col-lg-12 col-md-6">
                                         <ul class="list-inner-wrap mb-mb-0 mb-3 mb-lg-3 mb-xl-0">
-                                            <li><img src="assets/img/icon/check1.png" alt="img"> One hour Deliveries</li>
-                                            <li><img src="assets/img/icon/check1.png" alt="img">Dedicated Services</li>
-                                            <li><img src="assets/img/icon/check1.png" alt="img">Overnight Deliveries</li>
-                                            <li><img src="assets/img/icon/check1.png" alt="img">Corporate Courier</li>
+                                        <img src="assets/img/icon/check1.png" alt="img"> One hour Deliveries
+                                        <img src="assets/img/icon/check1.png" alt="img">Dedicated Services
+                                        <img src="assets/img/icon/check1.png" alt="img">Overnight Deliveries
+                                        <img src="assets/img/icon/check1.png" alt="img">Corporate Courier
                                         </ul>
                                     </div>
                                     <div class="col-xl-6 col-lg-12 col-md-6 align-self-center">
@@ -441,10 +515,10 @@
                                     <div class="hover-icon">
                                         <i class="fa fa-plus"></i>
                                         <ul class="social-area">
-                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
                                         </ul>
                                     </div>
                                 </div>
@@ -461,10 +535,10 @@
                                     <div class="hover-icon">
                                         <i class="fa fa-plus"></i>
                                         <ul class="social-area">
-                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
                                         </ul>
                                     </div>
                                 </div>
@@ -481,10 +555,10 @@
                                     <div class="hover-icon">
                                         <i class="fa fa-plus"></i>
                                         <ul class="social-area">
-                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
                                         </ul>
                                     </div>
                                 </div>
@@ -774,10 +848,10 @@
                         <div class="details">
                             <p>Through innovation, we strive to design and simplify processes to improve and uphold the highest level of service delivery to our customers. </p>
                             <ul class="social-media style-border">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-whatsapp"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
                             </ul>
                         </div>
                     </div>
@@ -786,11 +860,11 @@
                     <div class="widget widget_nav_menu">
                         <h4 class="widget-title">USEFUL LINKS</h4>
                         <ul>
-                            <li><a href="about.html"><i class="fa fa-arrow-right"></i> About Us</a></li>
-                            <li><a href="service.html"><i class="fa fa-arrow-right"></i> Services</a></li>
-                            <li><a href="#"><i class="fa fa-arrow-right"></i> Portfolio</a></li>
+                        <a href="about.html"><i class="fa fa-arrow-right"></i> About Us</a>
+                        <a href="service.html"><i class="fa fa-arrow-right"></i> Services</a>
+                        <a href="#"><i class="fa fa-arrow-right"></i> Portfolio</a>
                             
-                            <li><a href="contact.html"><i class="fa fa-arrow-right"></i> Contact Us</a></li>
+                        <a href="contact.html"><i class="fa fa-arrow-right"></i> Contact Us</a>
                         </ul>
                     </div>
                 </div>
@@ -798,11 +872,11 @@
                     <div class="widget widget_nav_menu">
                         <h4 class="widget-title">OUR SERVICES</h4>
                         <ul>
-                            <li><a href="service-details.html"><i class="fa fa-arrow-right"></i> Courier</a></li>
-                            <li><a href="service-details1.html"><i class="fa fa-arrow-right"></i> Executive Transfer</a></li>
-                            <li><a href="service-details2.html"><i class="fa fa-arrow-right"></i> Local Long Distance Transport</a></li>
-                            <li><a href="service-details3.html"><i class="fa fa-arrow-right"></i> Bulk/Heavy Commercial</a></li>
-                            <li><a href="service-details4.html"><i class="fa fa-arrow-right"></i> Interior Decor</a></li>
+                        <a href="service-details.html"><i class="fa fa-arrow-right"></i> Courier</a>
+                        <a href="service-details1.html"><i class="fa fa-arrow-right"></i> Executive Transfer</a>
+                        <a href="service-details2.html"><i class="fa fa-arrow-right"></i> Local Long Distance Transport</a>
+                        <a href="service-details3.html"><i class="fa fa-arrow-right"></i> Bulk/Heavy Commercial</a>
+                        <a href="service-details4.html"><i class="fa fa-arrow-right"></i> Interior Decor</a>
                         </ul>
                     </div>
                 </div>
@@ -832,12 +906,12 @@
                 </div>
               <!--  <div class="col-lg-6 text-lg-end text-center">
                     <ul>
-                        <li>
+                    
                             <a href="#">Terms & Condition</a>
-                        </li>
-                        <li>
+                        
+                    
                             <a href="#">Privacy & Policy</a>
-                        </li>
+                        
                     </ul>
                 </div> -->
             </div>

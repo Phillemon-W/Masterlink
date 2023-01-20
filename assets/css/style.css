@@ -2066,7 +2066,7 @@ ul {
   }
   .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children:before {
     top: 26px;
-    right: 3px !important;
+    right: 3px ;
   }
   .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu {
     position: initial;
