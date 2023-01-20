@@ -12,7 +12,55 @@
     <link rel="stylesheet" href="assets/css/vendor.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+<style>
+    .navbar{
+        border:1px solid green;
+        padding-right:0;
+        background:white;
+    }
+    .navbar-top{   
+        background:rgb(54, 23, 61);
+          }
+          .navbar-top  .container .row{
+           
+            display: flex;
+       align-items: center;
+      justify-content:space-between;
+       color:rgb(212, 211, 211);
+      
+       padding:0;
+     
+        }
 
+        .topbar-left{
+          
+            width:50%;
+        }
+        .topbar-right{
+    
+            width:20%;
+       
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            gap:20px;
+            font-size:20px;
+        }
+        .logo2 img{
+            max-height:100px;
+        }
+        @media only screen and (max-width: 600px) {
+        
+        .logo2{
+           display: none; 
+        }
+        }
+        .hide{
+            display:none;
+            
+        }
+       
+</style>
 </head>
 <body>
 
@@ -35,9 +83,9 @@
     <!-- navbar start -->
     <header class="navbar-area">
         <div class="navbar-top">
-            <div class="logo d-none d-lg-block ">
+            <!-- <div class="logo  ">
                 <a class="main-logo" href="home.html"><img src="assets/img/lgo.png" alt="img"></a>
-            </div>
+            </div> -->
             
             <div class="container p-lg-0">
                 <div class="row">
@@ -78,9 +126,7 @@
                         <span class="icon-right"></span>
                     </button>
                 </div>
-                <div class="logo">
-                    <a href="home.html"><img src="assets/img/lgo-2.png" alt="img"></a>
-                </div>
+               
                 <div class="nav-left-part">
                       
                 </div>
@@ -95,6 +141,12 @@
                     </a>
                 </div>
                 <div class="collapse navbar-collapse" id="transpro_main_menu">
+                    <div class="logo">
+                        <a href="home.html"><img src="assets/img/lgo-2.png" alt="img"></a>
+                    </div>
+                    <div class="logo2">
+                        <a href="home.html"><img src="assets/img/lgo-2.png" alt="img"></a>
+                    </div>
                     <ul class="navbar-nav menu-open">
                         <li><a href="home.html">Home</a></li>
                         <li><a href="about.html">About Us</a></li>

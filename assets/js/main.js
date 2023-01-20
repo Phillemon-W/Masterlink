@@ -391,8 +391,10 @@
         var scroll = $(window).scrollTop();
         if (scroll < 445) {
             $(".navbar").removeClass("sticky-active");
+            $(".logo2").removeClass("hide");
         } else {
             $(".navbar").addClass("sticky-active");
+            $(".logo2").addClass("hide");
         }
 
     });
